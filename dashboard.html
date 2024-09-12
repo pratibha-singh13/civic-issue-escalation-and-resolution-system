@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Civic Network</title>
+    <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+    <!-- Navigation Bar -->
+    <header class="bg-gray-900 text-white shadow-lg">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">Civic Network</a>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+                <li><a href="report.html" class="hover:text-blue-300">Report Issue</a></li>
+                <li><a href="track.html" class="hover:text-blue-300">Track Issues</a></li>
+                <li><a href="dashboard.html" class="bg-blue-600 px-3 py-1 rounded-md">Dashboard</a></li>
+                <li><a href="about.html" class="hover:text-blue-300">About Us</a></li>
+                <li><a href="contact.html" class="hover:text-blue-300">Contact Us</a></li>
+            </ul>
+            <div class="profile">
+                <img src="profile-icon.png" alt="Profile" class="w-8 h-8 rounded-full">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Dashboard Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl font-bold text-center text-gray-800 mb-8">Dashboard</h1>
+            <!-- Overview Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                <!-- Card 1: Citizen Streaks -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Citizen Streaks</h3>
+                    <p class="text-gray-600">View your streaks and achievements for reporting issues.</p>
+                    <div class="mt-4">
+                        <!-- Example Streak Info -->
+                        <p class="text-lg font-semibold text-blue-600">Streak: 5 Days</p>
+                    </div>
+                </div>
+                <!-- Card 2: Leader Performance -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Leader Performance</h3>
+                    <p class="text-gray-600">See how many issues have been resolved by leaders.</p>
+                    <div class="mt-4">
+                        <!-- Example Performance Info -->
+                        <p class="text-lg font-semibold text-blue-600">Resolved Issues: 150</p>
+                    </div>
+                </div>
+                <!-- Card 3: Recent Reports -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Recent Reports</h3>
+                    <p class="text-gray-600">Track the most recent issues reported by citizens.</p>
+                    <div class="mt-4">
+                        <!-- Example Recent Report Info -->
+                        <p class="text-lg font-semibold text-blue-600">Latest Report: Garbage Collection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <p>&copy; 2024 Civic Network. All rights reserved.</p>
+        <div class="flex justify-center space-x-4 mt-2">
+            <a href="contact.html" class="hover:text-blue-300">Contact Us</a>
+            <a href="privacy.html" class="hover:text-blue-300">Privacy Policy</a>
+            <a href="terms.html" class="hover:text-blue-300">Terms of Service</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
